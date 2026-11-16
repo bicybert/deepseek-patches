@@ -19,6 +19,26 @@ plus its ABI and density splits).
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/bicybert/deepseek-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 DeepSeek&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**Package name:** `com.deepseek.chat`
+
+**🎯 Supported versions:**
+
+| 2.8.0 | 2.1.6 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Add microG-RE support](#add-microg-re-support) | Builds microG DeepSeek, a separate app that signs in to your Google account through microG-RE (MicroG-RE or ReVanced GmsCore). Not for root installs. |  |
+| [Change package name](#change-package-name) | Installs alongside stock DeepSeek under its own package name. On by default: a re-signed copy cannot replace the stock app. | • Package name |
+| [Remove PairIP license checks](#remove-pairip-license-checks) | Neuters PairIP's license check, which contacts Google Play on every start and shuts the app down when it was not installed by Play. Needed for a re-signed copy to run at all. |  |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ## Notes
