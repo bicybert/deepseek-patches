@@ -1,14 +1,15 @@
-group = "app.template"
+group = "app.bicybert"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "bicybert patches"
+        description = "DeepSeek: run re-signed without Google Play services (PairIP license checks removed), " +
+            "install alongside the stock app under its own package name, and sign in to Google through " +
+            "microG-RE (MicroG-RE or ReVanced GmsCore)."
+        source = "git@github.com:bicybert/deepseek-patches.git"
+        author = "bicybert"
+        contact = "https://github.com/bicybert"
+        website = "https://github.com/bicybert/deepseek-patches"
         license = "GPLv3"
     }
 }

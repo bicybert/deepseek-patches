@@ -1,7 +1,10 @@
-rootProject.name = "morphe-patches-template"
+rootProject.name = "deepseek-patches"
 
 pluginManagement {
     repositories {
+        // Local builds of the Morphe patcher and this plugin (publishToMavenLocal), so no
+        // GitHub token is needed for development. The registry stays as fallback.
+        mavenLocal()
         gradlePluginPortal()
         google()
         maven {
@@ -17,5 +20,5 @@ pluginManagement {
 }
 
 plugins {
-    id("app.morphe.patches") version "2.1.1"
+    id("app.morphe.patches") version "2.0.0"
 }
