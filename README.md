@@ -16,6 +16,11 @@ Add this repo to Morphe Manager, select DeepSeek and follow the instructions sho
 You will need the app as an XAPK (an App Bundle from APKPure or the like -- `base.apk`
 plus its ABI and density splits).
 
+## Patches
+
+<!-- PATCHES_START EXPANDED -->
+<!-- PATCHES_END -->
+
 ## Notes
 
 - DeepSeek does not use push notifications (no Firebase/FCM), so there is nothing to
