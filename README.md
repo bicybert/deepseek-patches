@@ -62,7 +62,8 @@ git clone https://github.com/MorpheApp/morphe-patches-gradle-plugin.git  # tag v
 ./gradlew buildAndroid
 # bundle: patches/build/libs/patches-*.mpp
 ```
-
+## why i made this?
+my phone does not support google services nor gmscore apps so i decided to patch the apps i use mostly
 ## License
 
 bicybert patches are licensed under the [GNU General Public License v3.0](LICENSE).
